@@ -21,6 +21,8 @@ for Mobile devices. iOS, Android.
     - frontendDist to ../dist
   - src-tauri/capabilities/default.json
     - permissions
+- edit vite.config.js's base path
+  - base: './'
 
 ## mobile setup
 - init devives.
@@ -43,6 +45,7 @@ for Mobile devices. iOS, Android.
 
 ## commands...  
 > - npm run tauri dev
+>   - if not work well, try npm run build first.
 > - npm run tauri build
 
 > - npm run tauri android dev
